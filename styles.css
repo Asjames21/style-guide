@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Sacramento';
+    font-style: normal, bold;
+    font-weight: 400, 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/sacramento/v13/buEzpo6gcdjy0EiZMBUG4C0f_f5Iai0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Quicksand';
+    font-style: light, normal, bold;
+    font-weight: 300, 400, 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v30/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58a-wjwxUD2GFw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v30/6xKtdSZaM9iE8KbpRA_hK1QNYuDyPw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v30/6xKtdSZaM9iE8KbpRA_hK1QNYuDyPw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    font-family: Quicksand, Arial, sans-serif;
+    background-color: #c1c8ef;
+    color:#8860d0;
+}
+
+h1 {
+    text-align:center;
+    font-family: Sacramento, sans-serif;
+    font-size: 80px;
+}
+
+/* colors */
+
+.color_scheme div {
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+
+
+}
+
+.color_scheme {
+    display: flex;
+}
+
+.color_section {
+    border:3px solid #8860d0;
+    padding: 20px;
+    background-color: white;
+}
+.periwinkle {
+    background-color: #5680e9;
+    flex: 1;
+}
+
+.skyblue {
+    background-color: #84ceeb;
+    flex: 1;
+}
+
+.lightblue {
+    background-color: #5ab9ea;
+    flex: 1;
+}
+
+.lightpurple {
+    background-color: #c1c8ef;
+    flex: 1;
+}
+.purple {
+    background-color: #8860d0;
+    flex: 1;
+}
+
+
+/* Fonts */
+.font_section {
+    border:3px solid #8860d0;
+    padding: 20px;
+    background-color: white;
+    color:#5ab9ea;
+}
+
+.font_section h3 {
+    font-size: 30px;
+    margin-bottom: 1px;
+    color:#5680e9;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.fonts {
+    display: flex;
+}
+
+.Sacramento {
+    font-family: Sacramento;
+    font-size: 20px;
+    flex: 1;
+
+}
+
+.Quicksand {
+    font-family: Quicksand;
+    font-size: 20px;
+    flex: 1;
+}
+
+
+/*footer*/
+
+#twitter {
+    color: #5680e9;
+}
+
+#twitter:hover {
+    color:#5ab9ea;
+}
+
+#twitter:hover {
+    color: #84ceeb;
+}
+
+#twitter:visited {
+    color: #8860d0;
+}
+
